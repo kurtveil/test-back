@@ -21,7 +21,7 @@ const UsuarioSchema = Schema({
     role: {
         type: String,
         require: true,
-        default: 'USER_ROLE'
+        default: 'ADMIN_ROLE'
     },
     google: {
         type: Boolean,
